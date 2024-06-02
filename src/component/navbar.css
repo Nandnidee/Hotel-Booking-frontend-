@@ -40,10 +40,12 @@
 }
 
 #navbarNav {
-  transition: height 0.3s ease-in-out;
   background-color: transparent;
   text-align: center;
+
+ transition: height 0.9s all;
 }
+
 
 #logo {
   height: 100px; /* Using vw for logo height */
@@ -58,4 +60,5 @@
   .navbar.bg-black {
     background-color: black;
   }
+  
 }

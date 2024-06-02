@@ -10,6 +10,19 @@
     height: 70vh;
    
 }
+.book-now{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: 0.5s all;
+}
+.book-now:hover{
+    transform: translateY(2px);
+ 
+}
 .header-image::before {
     content: '';
     position: absolute;
